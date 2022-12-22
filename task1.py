@@ -24,11 +24,8 @@ print(testList[-3])
 testList.append("strawberry")
 
 # Unpacking the list such that A1 has 1st element of list A2 has 2nd element of list AL has last element of list and AR has all other element of list
-a1, a2, 
-a1 = testList[0]
+a1, a2 = testList
 print(a1)
-
-a2 = testList[2]
 print(a2)
 
 al = testList.pop()
