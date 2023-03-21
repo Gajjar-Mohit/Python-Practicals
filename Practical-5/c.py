@@ -1,6 +1,7 @@
 
 #Single Inheritance
 print("Single Inheritance")
+print('------------------------------------------')
 class Parent:
     def __init__(self, name, age):
         self.name = name
@@ -11,7 +12,7 @@ class Child(Parent):
         super().__init__(name, age)
         self.grade = grade
 
-child = Child("Dhruv", 19, 'Sem-4')
+child = Child("Mohit", 21, 'Sem-4')
 print("Name:", child.name)
 print("Age:", child.age)
 print("Grade:", child.grade)
@@ -19,6 +20,7 @@ print('\n')
 
 #Multilevel Inheritance
 print("Multilevel Inheritance")
+print('------------------------------------------')
 class Grandparent:
     def __init__(self, name, age):
         self.name = name
@@ -34,7 +36,7 @@ class Child(Parent):
         super().__init__(name, age, occupation)
         self.grade = grade
 
-child = Child("Dhruv", 19, "Student",'Sem-4')
+child = Child("Mohit", 21, "Student",'Sem-4')
 print("Name:", child.name)
 print("Age:", child.age)
 print("Occupation:", child.occupation)
@@ -43,6 +45,7 @@ print('\n')
 
 #Multiple Inheritance
 print("Multiple Inheritance")
+print('------------------------------------------')
 class Father:
     def __init__(self, name, age):
         self.name = name
@@ -59,7 +62,7 @@ class Child(Father, Mother):
         Mother.__init__(self, occupation, salary)
         self.grade = grade
 
-child = Child("Dhruv", 19, "Student",'None','Sem-4')
+child = Child("Mohit", 21, "Student",'None','Sem-4')
 print("Name:", child.name)
 print("Age:", child.age)
 print("Occupation:", child.occupation)
@@ -67,8 +70,3 @@ print("Salary:", child.salary)
 print("Grade:", child.grade)
 print('\n')
 
-
-
-
-p5c.py
-Displaying p5c.py.
